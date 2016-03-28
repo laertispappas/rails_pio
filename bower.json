@@ -1,0 +1,25 @@
+{
+  "name": "poi_app",
+  "homepage": "https://github.com/laertispappas/context_aware_recommendation",
+  "authors": [
+    "Laertis Pappas <laertis.pappas@gmail.com>"
+  ],
+  "description": "",
+  "main": "main",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "AngularDevise": "angular-devise#^1.3.0"
+  }
+}

@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <a href="#{{trip.link}}" style="color: #fff">
+      {{ trip.departure_airport.city.name }} ({{ trip.departure_airport.city.country.two_digit_code }})
+      -------->
+      {{ trip.arrival_airport.city.name }} ({{ trip.arrival_airport.city.country.two_digit_code }})
+    </a>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+  <div class="panel-footer">
+    <button ng-if="showDeleteTripBtn" type="button" class="btn btn-danger btn-xs" ng-click="deleteTrip(trip)">Delete</button>
+  </div>
+</div> 

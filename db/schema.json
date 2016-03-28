@@ -1,0 +1,24 @@
+{
+  "country": "GR",
+  "user": [
+    "_id": "1"
+    "email": "2@222.com"
+    "gender": "males",
+    "customer_type": "retail", 
+    ],
+    "trips": [
+    ]
+  ],
+  "cities": [
+    {
+      "name": "Athens",
+      "airports": [
+        { 
+          "code": "ATH",
+          "name": "Athens El. Venizelos"
+        }
+      ]
+    }  
+  ],
+
+}

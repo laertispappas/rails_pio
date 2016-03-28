@@ -1,0 +1,127 @@
+2016-03-11 02:25:44,499 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-11 02:25:44,500 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-11 02:25:44,500 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-11 02:25:44,501 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-11 02:25:50,492 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-11 02:25:52,267 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-11 02:25:52,455 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-11 02:25:52,934 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-11 02:25:53,046 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-15 21:25:03,239 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-15 21:25:03,258 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-15 21:25:03,258 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-15 21:25:03,259 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-15 21:26:37,394 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-15 21:26:37,396 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-15 21:26:37,396 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-15 21:26:37,396 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-15 21:26:45,008 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-15 21:26:48,842 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-15 21:26:49,313 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-15 21:26:51,183 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-15 21:26:51,365 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 20:10:12,416 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 20:10:12,418 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 20:10:12,418 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 20:10:12,419 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 20:10:16,704 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 20:10:18,436 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 20:10:18,613 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 20:10:19,234 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 20:10:19,344 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 20:10:34,575 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 20:10:34,576 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 20:10:34,577 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 20:10:34,577 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 20:10:42,365 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 20:10:43,862 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 20:10:44,051 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 20:10:44,474 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 20:10:44,583 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 20:10:51,693 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 20:10:51,695 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 20:10:51,695 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 20:10:51,696 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 20:10:54,856 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 20:10:56,310 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 20:10:56,476 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 20:10:57,069 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 20:10:57,175 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 20:34:50,121 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 20:34:50,145 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 20:34:50,145 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 20:34:50,147 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 20:35:02,639 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 20:35:04,350 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 20:35:04,537 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 20:35:04,892 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 20:35:05,003 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 20:49:18,528 INFO  io.prediction.tools.console.Console$ [main] - Inspecting PredictionIO...
+2016-03-17 20:49:18,535 INFO  io.prediction.tools.console.Console$ [main] - PredictionIO 0.9.5 is installed at /home/lapis/PredictionIO
+2016-03-17 20:49:18,536 INFO  io.prediction.tools.console.Console$ [main] - Inspecting Apache Spark...
+2016-03-17 20:49:18,567 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark is installed at /home/lapis/PredictionIO/vendors/spark-1.5.1
+2016-03-17 20:49:18,648 INFO  io.prediction.tools.console.Console$ [main] - Apache Spark 1.5.1 detected (meets minimum requirement of 1.3.0)
+2016-03-17 20:49:18,648 INFO  io.prediction.tools.console.Console$ [main] - Inspecting storage backend connections...
+2016-03-17 20:49:18,709 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Meta Data Backend (Source: ELASTICSEARCH)...
+2016-03-17 20:49:20,620 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Model Data Backend (Source: LOCALFS)...
+2016-03-17 20:49:20,628 INFO  io.prediction.data.storage.Storage$ [main] - Verifying Event Data Backend (Source: HBASE)...
+2016-03-17 20:49:22,752 INFO  io.prediction.data.storage.Storage$ [main] - Test writing to Event Store (App Id 0)...
+2016-03-17 20:49:23,050 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_0 doesn't exist yet. Creating now...
+2016-03-17 20:49:23,990 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_0...
+2016-03-17 20:49:25,491 INFO  io.prediction.tools.console.Console$ [main] - (sleeping 5 seconds for all messages to show up...)
+2016-03-17 20:49:30,493 INFO  io.prediction.tools.console.Console$ [main] - Your system is all ready to go.
+2016-03-17 21:11:40,972 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 21:11:40,995 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 21:11:40,995 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 21:11:40,996 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 21:11:44,054 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 21:11:45,630 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 21:11:45,863 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 21:11:46,287 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 21:11:46,396 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 21:12:05,465 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 21:12:05,466 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 21:12:05,466 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 21:12:05,467 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 21:12:13,298 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_2...
+2016-03-17 21:12:14,875 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 2
+2016-03-17 21:12:15,083 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_2 doesn't exist yet. Creating now...
+2016-03-17 21:12:16,981 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 2.
+2016-03-17 21:12:17,092 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 22:28:56,335 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 22:28:56,336 INFO  io.prediction.tools.console.App$ [main] -     App Name: TravelApp
+2016-03-17 22:28:56,337 INFO  io.prediction.tools.console.App$ [main] -       App ID: 2
+2016-03-17 22:28:56,337 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 22:30:12,748 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 22:30:12,749 INFO  io.prediction.tools.console.App$ [main] -     App Name: MyEcomRec
+2016-03-17 22:30:12,749 INFO  io.prediction.tools.console.App$ [main] -       App ID: 3
+2016-03-17 22:30:12,749 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 22:30:16,051 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_3...
+2016-03-17 22:30:17,627 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 3
+2016-03-17 22:30:17,801 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_3 doesn't exist yet. Creating now...
+2016-03-17 22:30:18,169 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 3.
+2016-03-17 22:30:18,278 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-17 22:38:26,448 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-17 22:38:26,450 INFO  io.prediction.tools.console.App$ [main] -     App Name: MyEcomRec
+2016-03-17 22:38:26,450 INFO  io.prediction.tools.console.App$ [main] -       App ID: 3
+2016-03-17 22:38:26,450 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-17 22:38:29,070 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_3...
+2016-03-17 22:38:30,597 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 3
+2016-03-17 22:38:30,775 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_3 doesn't exist yet. Creating now...
+2016-03-17 22:38:31,187 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 3.
+2016-03-17 22:38:31,297 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-18 00:22:40,163 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-03-18 00:22:40,165 INFO  io.prediction.tools.console.App$ [main] -     App Name: MyEcomRec
+2016-03-18 00:22:40,166 INFO  io.prediction.tools.console.App$ [main] -       App ID: 3
+2016-03-18 00:22:40,167 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-03-18 00:22:49,925 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - Removing table pio_event:events_3...
+2016-03-18 00:22:51,800 INFO  io.prediction.tools.console.App$ [main] - Removed Event Store for this app ID: 3
+2016-03-18 00:22:51,979 INFO  io.prediction.data.storage.hbase.HBLEvents [main] - The table pio_event:events_3 doesn't exist yet. Creating now...
+2016-03-18 00:22:52,378 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 3.
+2016-03-18 00:22:52,523 INFO  io.prediction.tools.console.App$ [main] - Done.
+2016-03-20 14:05:41,207 INFO  io.prediction.tools.console.App$ [main] -                 Name |   ID |                                                       Access Key | Allowed Event(s)
+2016-03-20 14:05:41,350 INFO  io.prediction.tools.console.App$ [main] -         ContextAware |    4 | EPaUd4KyO396aavAS3vSBQWOIW3bOpTihOBu2POdv4356Al2fe5eiwV5lmtlupGI | (all)
+2016-03-20 14:05:41,359 INFO  io.prediction.tools.console.App$ [main] -               MyApp1 |    1 | ZeYaT5kupBWO18XvV1mnFALg4BpJ63JpEuWWT0pHWoe0WkeTbCQ7O26jSTBFbJen | (all)
+2016-03-20 14:05:41,368 INFO  io.prediction.tools.console.App$ [main] -            MyEcomRec |    3 | Dj69yEwTYxp0BdCiZ7IHeCmlsMhSfZBu3uE1xTxI5Xwxt1Mbm8d39VWMotOI0XXU | (all)
+2016-03-20 14:05:41,374 INFO  io.prediction.tools.console.App$ [main] -            TravelApp |    2 | gicSs4EyAcMrEieMXLyfbsd3ZDJrxlGPKlFbH9JEtFbgDanKYHedGDH4XeXPZJtt | (all)
+2016-03-20 14:05:41,375 INFO  io.prediction.tools.console.App$ [main] - Finished listing 4 app(s).

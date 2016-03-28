@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  departure: MyString
+  arrival: MyString
+  departure_at: MyString
+  seat_class: MyString
+  reserved_at: MyString
+  total_price: MyString
+
+two:
+  departure: MyString
+  arrival: MyString
+  departure_at: MyString
+  seat_class: MyString
+  reserved_at: MyString
+  total_price: MyString

@@ -1,0 +1,46 @@
+
+<form ng-submit="addTrip(new_trip_data)" class="well" ng-show="isFormOpen" id="newTripForm">
+  <legend id="add_new_trip">Add a new Trip</legend>
+  <div class='container-fluid typeahead-demo'>
+    <label for="departure_city">Departure</label>
+    <input type="text" ng-model="new_trip_data.departure_city" placeholder="Departure City"
+    uib-typeahead="city for city in getCity($viewValue)"
+    typeahead-loading="loadingLocationsDeparture" typeahead-no-results="noResultsDeparture" class="form-control">
+    <i ng-show="loadingLocationsDeparture" class="glyphicon glyphicon-refresh"></i>
+    <div ng-show="noResultsDeparture">
+      <i class="glyphicon glyphicon-remove"></i> No Results Found
+    </div>
+
+    <label for="arrival_city">Arrival</label>
+    <input type="text" ng-model="new_trip_data.arrival_city" placeholder="Arrival City"
+    uib-typeahead="city for city in getCity($viewValue)"
+    typeahead-loading="loadingLocationsArrival" typeahead-no-results="noResultsArrival" class="form-control">
+    <i ng-show="loadingLocationsArrival" class="glyphicon glyphicon-refresh"></i>
+    <div ng-show="noResultsArrival">
+      <i class="glyphicon glyphicon-remove"></i> No Results Found
+    </div>
+
+    <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
+    <h4>Date</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="input-group">
+        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p class="input-group">
+        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+        <span class="input-group-btn">
+          <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+        </span>
+        </p>
+      </div>
+    </div>
+    <button class="btn btn-primary">Submit</button>
+  </div>
+</form>
+

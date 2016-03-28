@@ -1,0 +1,53 @@
+require 'csv'
+
+namespace :import_csv do
+
+  desc "Import user data and item data to db"
+  task :all, [:file_path] => :environment do |t, args|
+    file = args[:file_path] || "aa"
+    unless File.exists?(file)
+      file = "../../dataset/Data_TripAdvisor_v2.csv"
+    end
+
+    # ["UserID", "ItemID", "Rating", "UserState", "UserTimeZone", "ItemCity", "ItemState", "ItemTimeZone","TripType"]
+    ActiveRecord::Base.transaction do
+      CSV.foreach(file, headers: true) do |csv|
+        csv["UserID"] || raise("Null error")
+        csv["ItemID"] || raise("Null error")
+        csv["Rating"] || raise("Null error")
+        csv["UserState"] || raise("Null error")
+        csv["UserTimeZone"] || raise("Null error")
+        csv["ItemCity"] || raise("NULL")
+        csv["ItemState"] || raise("NULL")
+        csv["ItemTimeZone"] || raise("NULL")
+        csv["TripType"] || raise("NULL")
+
+        trip_type_mdl = TripType.find_or_create_by!(description: csv["TripType"])
+        user_time_zone_mdl = Timezone.find_or_create_by!(code:csv["UserTimeZone"])
+        user_state_mdl = State.find_or_create_by!(code: csv["UserState"])
+        hotel_time_zone_mdl = Timezone.find_or_create_by!(code: csv["ItemTimeZone"])
+        hotel_state_mdl = State.find_or_create_by!(code: csv["ItemState"])
+        hotel_city_mdl = City.find_or_create_by!(code: csv["ItemCity"], 
+                                                 state: hotel_state_mdl, 
+                                                 timezone:hotel_time_zone_mdl)
+
+        hotel_mdl = Hotel.find_or_create_by!(dataset_item_id: csv["ItemID"]) do |hotel|
+          hotel.city = hotel_city_mdl
+        end
+
+        current_user = User.find_or_create_by!(dataset_user_id: csv["UserID"]) do |user|
+          user.email = "l.pappas.#{csv["UserID"]}@gmail.com"
+          user.password = 'pappaspappas'
+          user.password_confirmation = 'pappaspappas'
+        end
+
+        Trip.create!(user_id: current_user.id, 
+                     user_state_id: user_state_mdl.id, 
+                     user_timezone_id: user_time_zone_mdl.id, 
+                     hotel_id: hotel_mdl.id)
+
+        Rating.create!(user: current_user, hotel: hotel_mdl, score: csv["Rating"], trip_type: trip_type_mdl)
+      end
+    end
+  end
+end

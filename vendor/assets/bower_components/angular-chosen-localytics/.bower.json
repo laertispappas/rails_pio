@@ -1,0 +1,26 @@
+{
+  "name": "angular-chosen-localytics",
+  "version": "1.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leocaseiro/angular-chosen.git"
+  },
+  "main": "dist/angular-chosen.js",
+  "dependencies": {
+    "jquery": "^2.0.3",
+    "chosen": "^1.1.0",
+    "angular": "^1.2.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/leocaseiro/angular-chosen",
+  "_release": "1.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.0",
+    "commit": "0831082fe9ff13045142c7ca53f41c1d38078ae3"
+  },
+  "_source": "git://github.com/leocaseiro/angular-chosen.git",
+  "_target": "^1.3.0",
+  "_originalSource": "angular-chosen-localytics",
+  "_direct": true
+}

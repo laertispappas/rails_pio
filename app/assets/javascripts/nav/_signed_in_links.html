@@ -1,0 +1,17 @@
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="#/home">My Trips</a></li>
+
+  <li class="dropdown" uib-dropdown>
+  <a uib-dropdown-toggle href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    {{ user.email }}
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" uib-dropdown-menu>
+    <li><a href="#/c">POI</a></li>
+    <li><a href="#/a">Profile</a></li>
+    <li><a href="#/b">Account</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a ng-click="logout()">Log Out</a></li>
+  </ul>
+  </li>
+</ul>
