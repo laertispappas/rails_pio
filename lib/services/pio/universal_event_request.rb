@@ -1,6 +1,8 @@
 module Services
   module Pio
     class UniversalEventRequest
+      include Services::Pio::Client
+
       attr_reader :user
       attr_reader :item
       attr_reader :trip
@@ -11,12 +13,6 @@ module Services
         @trip = trip
       end
 
-      def pio_event_client
-        PredictionIO::EventClient.new(
-          "gicSs4EyAcMrEieMXLyfbsd3ZDJrxlGPKlFbH9JEtFbgDanKYHedGDH4XeXPZJtt", 
-          "http://localhost:7070")
-      end
-
       def create_all_events
         create_user_event
         create_item_event
@@ -24,7 +20,7 @@ module Services
       end
 
       def self.get_events
-        events_json = RestClient.get "http://localhost:7070/events.json?accessKey=gicSs4EyAcMrEieMXLyfbsd3ZDJrxlGPKlFbH9JEtFbgDanKYHedGDH4XeXPZJtt"
+        events_json = RestClient.get "#{Rails.configuration.x.predictionio["event_client"]["host"]}/events.json?accessKey=#{Rails.configuration.x.predictionio["event_client"]["access_key"]}"
         events_hash = ActiveSupport::JSON.decode(events_json)
         events_hash
       end

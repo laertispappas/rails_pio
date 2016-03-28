@@ -1,6 +1,7 @@
 class PredictionService
+  include Services::Pio::Client
   class << self
-    def client
+    def engine_client
       @client ||= PredictionIO::EngineClient.new("http://localhost:8000")
     end
   end

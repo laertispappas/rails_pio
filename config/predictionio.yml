@@ -1,0 +1,12 @@
+development:
+  engine_client:
+    host: 'http://localhost:8000'
+  event_client:
+    host: 'http://localhost:7070'
+    access_key: 'gicSs4EyAcMrEieMXLyfbsd3ZDJrxlGPKlFbH9JEtFbgDanKYHedGDH4XeXPZJtt'
+production:
+  engine_client: 
+    host: <%= ENV['PIO_ENGINE_HOST'] %>
+  event_client:
+    host: <%= ENV["PIO_EVENT_HOST"] %>
+    access_key: <%= ENV["PIO_ACCESS_KEY"] %>
