@@ -1,11 +1,6 @@
 class PredictionService
   include Services::Pio::Client
-  class << self
-    def engine_client
-      @client ||= PredictionIO::EngineClient.new("http://localhost:8000")
-    end
-  end
-  
+
   attr_reader :opts
   attr_reader :entity_ids
 
@@ -14,7 +9,7 @@ class PredictionService
   end
 
   def call
-    result = client.send_query(opts[:entity].to_s => opts[:entity_id] , "num" => opts[:num])
+    result = pio_engine_client.send_query(opts[:entity].to_s => opts[:entity_id] , "num" => opts[:num])
     @entity_ids = result["itemScores"].map{ |item| item["item"] }
     self
   end
@@ -34,9 +29,4 @@ class PredictionService
     end
   end
 
-  private
-
-  def client
-    @client ||= self.class.client
-  end
 end

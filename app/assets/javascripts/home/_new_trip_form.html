@@ -1,3 +1,11 @@
+<div class="page-header">
+  <button ng-click="isFormOpen = !isFormOpen; toggle = !toggle" class="btn btn-danger">
+    <i class="glyphicon glyphicon-plus">
+    </i>
+    <span ng-show="!toggle">Add New Trip</span>
+    <span ng-show="toggle">Hide Form</span>
+  </button>
+</div>
 
 <form ng-submit="addTrip(new_trip_data)" class="well" ng-show="isFormOpen" id="newTripForm">
   <legend id="add_new_trip">Add a new Trip</legend>
@@ -20,24 +28,17 @@
       <i class="glyphicon glyphicon-remove"></i> No Results Found
     </div>
 
-    <pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
-    <h4>Date</h4>
     <div class="row">
       <div class="col-md-6">
+        <h4>Departure At</h4>
         <p class="input-group">
-        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+        <input type="text" class="form-control" uib-datepicker-popup="{{format}}"
+        ng-model="new_trip_data.dt.departure_at" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
         <span class="input-group-btn">
           <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
         </span>
         </p>
-      </div>
-      <div class="col-md-6">
-        <p class="input-group">
-        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
-        <span class="input-group-btn">
-          <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
-        </span>
-        </p>
+
       </div>
     </div>
     <button class="btn btn-primary">Submit</button>

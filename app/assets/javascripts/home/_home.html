@@ -1,14 +1,6 @@
-<div class="page-header">
-  <button ng-click="isFormOpen = !isFormOpen; false" class="btn btn-danger">
-    <i class="glyphicon glyphicon-plus">
-    </i>
-    New Trip
-  </button>
-</div>
-
 <div class="row">
   <div class="col-md-8">
-   <div ng-include="'home/_new_trip_form.html'"></div>
+    <div ng-include="'home/_new_trip_form.html'"></div>
     <div ng-repeat="trip in trips">
       <div ng-include="'trips/_trip.html'"></div>
     </div>
